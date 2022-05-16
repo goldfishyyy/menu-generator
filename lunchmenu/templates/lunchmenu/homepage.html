@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lunch memu</title>
+</head>
+<body>
+    <h1> Welcome to Auto Lunch Menu Generator</h1>
+    <form action="{%url 'display'%}">
+        <lable for = "main"> Select Main Dishes: </lable>
+        <select id = "main" name="main">
+            <option value="seafood" > Seafood </option>
+            <option value="chicken" selected="selected"> Chicken </option>
+            <option value="beef"> Beef   </option>
+            <option value="pork"> Pork </option>
+        </select><br><br>
+        <input type="Submit" value="Confirm and Submit">
+
+
+
+    </form>
+<a href="{%url 'about'%}">About the App</a>
+</body>
+</html>
